@@ -26,12 +26,22 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop Preview:
+
+![Desktop Preview](https://github.com/user-attachments/assets/6eddb30c-05ab-4207-a0a6-57f095074d6c)
+
+Tablet Preview:
+
+![Tablet Preview](https://github.com/user-attachments/assets/89a33709-7570-4a4d-a76b-953dc2031a74)
+
+Mobile Preview:
+
+![Mobile Preview](https://github.com/user-attachments/assets/012e1816-800b-4c21-b201-4da0e5598618)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/bookmark-responsive-landing-page-using-react-and-tailwindcss-4mYzAUMpyz)
+- Live Site URL: [Live Site](https://bookmark-responsive-landing-page.netlify.app/)
 
 ## My process
 
@@ -46,6 +56,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Deeperr0](https://www.github.com/Deeperr0)
+- Frontend Mentor - [@Deeperr0](https://www.frontendmentor.io/profile/Deeperr0)
+- Twitter - [@deeperr00](https://www.twitter.com/deeperr00)
