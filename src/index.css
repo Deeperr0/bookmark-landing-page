@@ -8,3 +8,7 @@
 	box-sizing: border-box;
 	font-family: "Rubik", "sans-serif";
 }
+#root {
+	width: 100%;
+	overflow-x: hidden;
+}

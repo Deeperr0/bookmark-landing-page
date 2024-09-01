@@ -1,1 +1,1 @@
-export { default } from "./ExtensionCard";
+export { default } from "./FAQ";

@@ -4,11 +4,11 @@ export default function DownloadExtension() {
 	return (
 		<div className="flex flex-col items-center gap-10 shrink-0">
 			<h3 className="text-2xl font-medium">Download the extension</h3>
-			<p className="text-grayishBlue w-1/3 text-center">
+			<p className="text-grayishBlue w-2/3 lg:w-1/3 text-center">
 				We've got more more browsers in the pipeline. Please do let us know if
 				you've got a favourite you'd like us to prioritize.
 			</p>
-			<div className="flex gap-8">
+			<div className="flex gap-8 flex-col lg:flex-row">
 				<div>
 					<ExtensionCard
 						extensionLogo={
@@ -55,7 +55,7 @@ export default function DownloadExtension() {
 						minimumVersion={62}
 					/>
 				</div>
-				<div className="mt-10">
+				<div className="lg:mt-10">
 					<ExtensionCard
 						extensionLogo={
 							<svg
@@ -73,7 +73,7 @@ export default function DownloadExtension() {
 						minimumVersion={55}
 					/>
 				</div>
-				<div className="mt-20">
+				<div className="lg:mt-20">
 					<ExtensionCard
 						extensionLogo={
 							<svg

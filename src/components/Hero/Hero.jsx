@@ -1,32 +1,45 @@
+import InvertableButton from "../InvertableButton";
+
 export default function Hero() {
 	return (
 		<div className="w-full relative">
-			<div className="flex justify-between pl-40 pr-24 items-center gap-32">
-				<div className="flex flex-col gap-8 w-[36%]">
-					<h1 className="text-4xl text-veryDarkBlue font-medium">
+			<div className="flex flex-col-reverse lg:flex-row lg:pl-40 md:pl-20 items-center justify-between gap-16">
+				<div className="flex flex-col gap-8 lg:w-[60%] items-center lg:items-start lg:text-left md:pr-20">
+					<h1 className="text-4xl text-veryDarkBlue font-medium text-center lg:text-left">
 						A Simple Bookmark Manager
 					</h1>
-					<p className="text-grayishBlue">
+					<p className="text-grayishBlue w-9/12 lg:w-full text-center lg:text-left">
 						A clean and simple interface to organize your favourite websites.
 						Open a new browser tab and see your sites load instantly. Try it for
 						free.
 					</p>
-					<div className="flex gap-4">
-						<button className="bg-primarySoftBlue text-white px-5 py-3 rounded-md">
+					<div className="flex gap-4 flex-col md:flex-row">
+						{/* <button className="bg-primarySoftBlue text-white px-5 py-3 rounded-md border-2 border-transparent transition-all duration-300 hover:border-primarySoftBlue hover:bg-white hover:text-primarySoftBlue">
 							Get it on Chrome
 						</button>
-						<button className="bg-grayishBlue text-white px-5 py-3 rounded-md">
+						<button className="bg-grayishBlue text-white px-5 py-3 rounded-md border-2 border-transparent transition-all duration-300 hover:border-black hover:bg-white hover:text-black">
+							Get it on Firefox
+						</button> */}
+						<InvertableButton
+							paddingX={"px-5"}
+							paddingY={"py-3"}
+							backgroundColor={"primarySoftBlue"}
+							color={"white"}
+						>
+							Get it on Chrome
+						</InvertableButton>
+						<button className="bg-lightGray text-black shadow-md px-5 py-3 rounded-md border-2 border-transparent transition-all duration-300 hover:border-black hover:bg-white hover:text-black">
 							Get it on Firefox
 						</button>
 					</div>
 				</div>
-				<div className="flex justify-end">
+				<div className="flex relative w-full justify-center ">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						xmlnsXlink="http://www.w3.org/1999/xlink"
 						width="657"
 						height="466"
-						className="w-full z-10"
+						className="w-full z-10 lg:ml-12"
 					>
 						<defs>
 							<filter
@@ -383,9 +396,9 @@ export default function Hero() {
 							</g>
 						</g>
 					</svg>
+					<div className="bg-primarySoftBlue h-[350px] w-9/12 md:w-5/12 absolute rounded-l-full bottom-0 z-0 right-0"></div>
 				</div>
 			</div>
-			<div className="bg-primarySoftBlue h-[350px] w-5/12 absolute rounded-l-full bottom-0 z-0 right-0"></div>
 		</div>
 	);
 }
