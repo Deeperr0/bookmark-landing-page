@@ -39,7 +39,7 @@ export default function Hero() {
 						xmlnsXlink="http://www.w3.org/1999/xlink"
 						width="657"
 						height="466"
-						className="w-full z-10 lg:ml-12"
+						className="w-full z-10 lg:ml-12 2xl:ml-[28%]"
 					>
 						<defs>
 							<filter
