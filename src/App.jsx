@@ -11,14 +11,16 @@ function App() {
 		<>
 			<div className="flex flex-col gap-[100px]">
 				<Navbar />
-				<Hero />
-				<Features />
-				<DownloadExtension />
-				<FAQ />
-				<div>
-					<Newsletter />
-					<Footer />
-				</div>
+				<main role="main">
+					<Hero />
+					<Features />
+					<DownloadExtension />
+					<FAQ />
+					<div>
+						<Newsletter />
+						<Footer />
+					</div>
+				</main>
 			</div>
 		</>
 	);

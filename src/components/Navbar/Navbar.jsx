@@ -9,7 +9,10 @@ export default function Navbar() {
 			.classList.toggle("overflow-hidden", toggleMenu);
 	}, [toggleMenu]);
 	return (
-		<nav className="flex gap-6 items-center justify-between lg:px-40 md:px-20 px-10 pt-16 ">
+		<nav
+			className="flex gap-6 items-center justify-between lg:px-40 md:px-20 px-10 pt-16"
+			role="navigation"
+		>
 			<div>
 				<svg
 					width="148"

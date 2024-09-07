@@ -1,6 +1,9 @@
 export default function Footer() {
 	return (
-		<div className="flex flex-col md:flex-row items-center md:gap-6 gap-12 bg-veryDarkBlue lg:px-40 md:px-20 text-white justify-between py-10">
+		<footer
+			className="flex flex-col md:flex-row items-center md:gap-6 gap-12 bg-veryDarkBlue lg:px-40 md:px-20 text-white justify-between py-10"
+			role="contentinfo"
+		>
 			<div className="flex flex-col md:flex-row gap-16 text-center md:text-left">
 				<svg
 					width="148"
@@ -68,6 +71,6 @@ export default function Footer() {
 					</svg>
 				</li>
 			</ul>
-		</div>
+		</footer>
 	);
 }
