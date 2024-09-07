@@ -17,7 +17,10 @@ export default function Newsletter() {
 		alert("Thank you for subscribing!");
 	}
 	return (
-		<section className="flex flex-col items-center min-h-96 pb-10 lg:pb-0 md:h-80 bg-primarySoftBlue justify-center gap-10 px-10 lg:w-full">
+		<section
+			className="flex flex-col items-center min-h-96 pb-10 lg:pb-0 md:h-80 bg-primarySoftBlue justify-center gap-10 px-10 lg:w-full"
+			role="region"
+		>
 			<h2 className="text-white text-sm">35,000+ already joined</h2>
 			<p className="text-white text-3xl font-medium">
 				Stay up-to-date with what we're doing
