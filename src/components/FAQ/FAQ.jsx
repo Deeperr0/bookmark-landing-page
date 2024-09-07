@@ -4,7 +4,7 @@ import FaqItem from "../FaqItem";
 export default function FAQ() {
 	const [currentAnswer, setCurrentAnswer] = useState(-1);
 	return (
-		<div className="flex flex-col items-center">
+		<div className="flex flex-col items-center mt-32">
 			<div className="flex flex-col w-2/3 lg:w-[542px] gap-9">
 				<h2 className="text-2xl font-medium text-center">
 					Frequently Asked Questions
