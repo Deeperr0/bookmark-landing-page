@@ -27,7 +27,7 @@ export default function Features() {
 		},
 	];
 	return (
-		<div className="flex flex-col items-center relative pb-20">
+		<div className="flex flex-col items-center relative pb-20 mt-32">
 			<div className="flex flex-col items-center lg:w-[43%] px-5">
 				<h2 className="text-2xl font-medium">Features</h2>
 				<p className="text-center text-grayishBlue leading-normal mt-5">

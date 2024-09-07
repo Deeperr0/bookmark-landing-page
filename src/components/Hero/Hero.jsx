@@ -3,23 +3,17 @@ import InvertableButton from "../InvertableButton";
 export default function Hero() {
 	return (
 		<div className="w-full relative">
-			<div className="flex flex-col-reverse lg:flex-row lg:pl-40 md:pl-20 items-center justify-between gap-16">
-				<div className="flex flex-col gap-8 lg:w-[60%] items-center lg:items-start lg:text-left md:pr-20">
-					<h1 className="text-4xl text-veryDarkBlue font-medium text-center lg:text-left">
+			<div className="flex flex-col-reverse lg:flex-row lg:pl-40 md:pl-20 items-center justify-between gap-16 lg:gap-28">
+				<div className="flex flex-col gap-8 lg:w-[75%] items-center lg:items-start lg:text-left md:pr-20">
+					<h1 className="text-5xl leading-none text-veryDarkBlue font-medium text-center lg:text-left">
 						A Simple Bookmark Manager
 					</h1>
-					<p className="text-grayishBlue w-9/12 lg:w-full text-center lg:text-left">
+					<p className="text-grayishBlue w-9/12 lg:w-full text-center lg:text-left text-lg">
 						A clean and simple interface to organize your favourite websites.
 						Open a new browser tab and see your sites load instantly. Try it for
 						free.
 					</p>
 					<div className="flex gap-4 flex-col md:flex-row">
-						{/* <button className="bg-primarySoftBlue text-white px-5 py-3 rounded-md border-2 border-transparent transition-all duration-300 hover:border-primarySoftBlue hover:bg-white hover:text-primarySoftBlue">
-							Get it on Chrome
-						</button>
-						<button className="bg-grayishBlue text-white px-5 py-3 rounded-md border-2 border-transparent transition-all duration-300 hover:border-black hover:bg-white hover:text-black">
-							Get it on Firefox
-						</button> */}
 						<InvertableButton
 							paddingX={"px-5"}
 							paddingY={"py-3"}
@@ -33,13 +27,13 @@ export default function Hero() {
 						</button>
 					</div>
 				</div>
-				<div className="flex relative w-full justify-center ">
+				<div className="flex relative w-full justify-center lg:-ml-32 2xl:ml-[10%]">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						xmlnsXlink="http://www.w3.org/1999/xlink"
 						width="657"
 						height="466"
-						className="w-full z-10 lg:ml-12 2xl:ml-[28%]"
+						className="w-full z-10"
 					>
 						<defs>
 							<filter
