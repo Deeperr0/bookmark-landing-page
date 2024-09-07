@@ -6,7 +6,7 @@ export default function ExtensionCard({
 	minimumVersion,
 }) {
 	return (
-		<div className="flex flex-col items-center rounded-xl shadow-lg justify-center gap-5 py-6 hover:scale-105 transition-all duration-300">
+		<div className="flex flex-col items-center rounded-xl shadow-lg justify-center gap-8 py-6 hover:scale-105 transition-all duration-300">
 			<div className="h-24 w-24">{extensionLogo}</div>
 			<h3>Add to {extensionName}</h3>
 			<p>Minimum version {minimumVersion}</p>
