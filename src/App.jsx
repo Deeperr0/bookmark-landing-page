@@ -16,11 +16,11 @@ function App() {
 					<Features />
 					<DownloadExtension />
 					<FAQ />
-					<div>
-						<Newsletter />
-						<Footer />
-					</div>
 				</main>
+				<div>
+					<Newsletter />
+					<Footer />
+				</div>
 			</div>
 		</>
 	);
