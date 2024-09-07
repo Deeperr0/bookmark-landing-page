@@ -6,7 +6,7 @@ export default function FAQ() {
 	return (
 		<div className="flex flex-col items-center mt-32">
 			<div className="flex flex-col w-2/3 lg:w-[542px] gap-9">
-				<h2 className="text-2xl font-medium text-center">
+				<h2 className="text-3xl font-medium text-center">
 					Frequently Asked Questions
 				</h2>
 				<p className="text-center text-grayishBlue leading-normal">

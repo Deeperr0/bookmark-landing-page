@@ -44,7 +44,7 @@ export default function Navbar() {
 				</svg>
 			</div>
 			<div className="md:flex gap-6 items-center hidden">
-				<ul className="flex gap-6 items-center [&_a]:transition-all [&_a]:duration-300 hover:[&_a]:text-primarySoftRed hover:[&_a]:cursor-pointer text-sm">
+				<ul className="flex gap-6 items-center [&_a]:transition-all [&_a]:duration-300 hover:[&_a]:text-primarySoftRed hover:[&_a]:cursor-pointer text-sm tracking-widest">
 					<li>
 						<a>FEATURES</a>
 					</li>
@@ -64,7 +64,7 @@ export default function Navbar() {
 					backgroundColor={"primarySoftRed"}
 					color={"white"}
 				>
-					<p className="text-sm">LOGIN</p>
+					<p className="text-sm tracking-widest">LOGIN</p>
 				</InvertableButton>
 			</div>
 			<div

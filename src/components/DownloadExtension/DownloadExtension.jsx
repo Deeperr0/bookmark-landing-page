@@ -3,7 +3,7 @@ import ExtensionCard from "../ExtensionCard";
 export default function DownloadExtension() {
 	return (
 		<div className="flex flex-col items-center gap-10 shrink-0">
-			<h3 className="text-2xl font-medium">Download the extension</h3>
+			<h3 className="text-3xl font-medium">Download the extension</h3>
 			<p className="text-grayishBlue w-2/3 lg:w-1/3 text-center">
 				We've got more more browsers in the pipeline. Please do let us know if
 				you've got a favourite you'd like us to prioritize.

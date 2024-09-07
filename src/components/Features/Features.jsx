@@ -36,44 +36,44 @@ export default function Features() {
 					them on the go.
 				</p>
 			</div>
-			<ul className="flex flex-col mt-5 md:flex-row border-t-2 md:border-t-0 md:[&_p]:mx-0 md:[&_p]:px-10 [&_p]:mx-10 [&_p]:py-7 border-b border-lightGray mb-20 [&>li]:transition-all [&>li]:duration-300 hover:cursor-pointer hover:[&>li]:text-primarySoftRed">
+			<ul className="flex flex-col mt-5 md:flex-row border-t-2 md:border-t-0 md:[&_p]:mx-0 md:[&_p]:px-10 [&_p]:mx-10 [&_p]:py-7 border-b border-lightGray md:border-transparent mb-20 [&_p]:transition-all [&_p]:duration-300 hover:cursor-pointer hover:[&>li]:text-primarySoftRed hover:[&_p]:opacity-100">
 				<li
-					className="flex border-b-2 lg:border-b-4 border-lightGray justify-center"
+					className={`flex border-b-2 lg:border-b-4 border-lightGray md:border-transparent justify-center`}
 					onClick={() => setCurrentFeature(0)}
 				>
 					<p
 						className={`w-fit md:w-full h-full ${
 							currentFeature == 0
-								? "border-b-4 border-primarySoftRed"
-								: "border-b-2 lg:border-b-4 border-transparent md:border-transparent"
+								? "border-b-4 border-primarySoftRed opacity-100"
+								: "border-b-2 lg:border-b-4 opacity-50 border-lightGray"
 						}`}
 					>
 						Simple Bookmarking
 					</p>
 				</li>
 				<li
-					className="flex border-b-2 lg:border-b-4 border-lightGray justify-center"
+					className={`flex border-b-2 lg:border-b-4 border-lightGray md:border-transparent justify-center`}
 					onClick={() => setCurrentFeature(1)}
 				>
 					<p
 						className={`w-fit md:w-full h-full ${
 							currentFeature == 1
 								? "border-b-4 border-primarySoftRed"
-								: "border-b-2 lg:border-b-4 border-transparent md:border-transparent"
+								: "border-b-2 lg:border-b-4 opacity-50 border-lightGray"
 						}`}
 					>
 						Speedy Searching
 					</p>
 				</li>
 				<li
-					className="flex border-b-2 lg:border-b-4 border-lightGray justify-center"
+					className={`flex border-b-2 lg:border-b-4 border-lightGray md:border-transparent justify-center`}
 					onClick={() => setCurrentFeature(2)}
 				>
 					<p
 						className={`w-fit md:w-full h-full ${
 							currentFeature == 2
 								? "border-b-4 border-primarySoftRed"
-								: "border-b-2 lg:border-b-4 border-transparent md:border-transparent"
+								: "border-b-2 lg:border-b-4 opacity-50 border-lightGray"
 						}`}
 					>
 						Easy Sharing
