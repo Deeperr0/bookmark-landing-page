@@ -25,6 +25,7 @@ export default function Newsletter() {
 			<form
 				className="flex gap-4 h-12 flex-col md:flex-row"
 				onSubmit={(e) => handleSubmit(e)}
+				noValidate
 			>
 				<div
 					className={`p-[2px] ${
